@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Quiz</title>
+
+</head>
+
+<body>
+<!-- link to scores second page-->
+    <a id = "quiz" href="scores.html">View High Scores!</a>
+<!-- container class for the quiz to be inserted-->
+    <div id = "container">
+<!-- Div to associate with the timer clock-->
+        <div id = "timer"></div>
+        <div class="box-wrapper" id="intro">
+            <h2 class="bold">Coding Quiz Challenge</h2>
+            <p>The following questions in this quiz are code-related to test your understanding of the fundamentals of web development. You start with 75 on the time, every time you choose an incorrect answer, 15 time will be taken. Press the button below to begin.</p>
+        </div>
+        <!--added div for questions section -->
+        <div id="questions">
+            <h1>Timed Quiz on Coding Knowledge!</h1>
+            <p>Do your best to answer all of the questions within the given time limit. All incorrect responses will be penalized by a 10 second deduction on your time remaining!</p>
+            <div id="choicesList"></div>
+            <button id="startTimer">Start Quiz</button>
+        </div>
+    </div>
+<!-- link js to html-->
+    <script src = "script.js"></script>
+
+</body>
+</html>

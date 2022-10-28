@@ -1,0 +1,12 @@
+/* ------------------------
+/* Global Declarations foo */
+/* ---------------------- */
+* {
+    background-color: rgb(137, 230, 230);
+    margin: 2px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: monospace;
+    border-radius: 1rem;
+
+}
